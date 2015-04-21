@@ -1,0 +1,39 @@
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 3in;
+  text-align: center;
+}
+
+header {
+  font-family: 'Bad Script', cursive;
+}
+
+main {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+section h2 {
+  color: black;
+  text-align: left;
+}
+
+section {
+  text-align: left;
+}
+
+.boxed {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+nav {
+  display: none;
+}

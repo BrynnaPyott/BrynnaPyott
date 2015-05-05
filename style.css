@@ -1,0 +1,167 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header h1 {
+  font-family: 'Bad Script', cursive;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav {
+  font-family: 'Bad Script', cursive;
+  font-size: 125%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav a, header nav a:visited {
+  color: white;
+  font-family: 'Bad Script', cursive;
+}
+
+nav {
+  padding-top: 2em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+.circle {
+  background: black;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  line-height: 100px;
+  margin-right: 5em;
+  text-align: center;
+}
+
+.circle:last-of-type {
+  background: black;
+  border-radius: 50px;
+  color: white;
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  line-height: 100px;
+  margin-right: 0em;
+  text-align: center;
+}
+
+.circle:hover {
+  background-color: pink;
+}
+
+.boxed {
+  border: 1px solid pink;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.profile {
+  border-radius: 100%;
+  display: block;
+  height: 90%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 125px;
+}
+
+section ul li a:visited {
+  color: black;
+}
+
+section h2 {
+  color: pink;
+  text-align: left;
+}
+
+section {
+  text-align: left;
+}
+
+@media only screen and (max-device-width: 320px) {
+
+    body {
+      margin: 0;
+      width: 320px;
+    }
+
+    header {
+      width: 100%;
+    }
+
+    header h1 {
+      font-size: 250%;
+    }
+
+    header nav {
+      font-size: 100%;
+      width: 100%;
+    }
+
+    main {
+  	  display: block;
+      margin-left: auto;
+  	  margin-right: auto;
+      width: 95%;
+    }
+
+    nav ul {
+      background-color: black;
+    }
+
+    .circle {
+  	  background: black;
+  	  border-radius: 0px;
+  	  color: white;
+      display: inline-block;
+  	  height: 0px;
+  	  margin: 0;
+	    width: 20%;  	  
+  	  text-align: center;
+    }
+
+    .circle:last-of-type {
+  	  background: black;
+  	  border-radius: 0px;
+  	  color: white;
+      display: inline-block;
+  	  height: 0px;
+  	  margin: 0;
+	  width: 20%;
+  	  text-align: center;
+    }
+
+    .profile {
+      height: 300px;
+      width: 300px;
+  	  margin-top: 2em;
+  	}
+
+  	section {
+  	  width: 100%;
+  	}
+
+}
